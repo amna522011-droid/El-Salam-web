@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="الموقع الرسمي لمدرسة السلام الثانوية للبنات">
+    <title>مدرسة السلام الثانوية للبنات</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🎓</span>
+                <div>
+                    <h2>مدرسة السلام</h2>
+                    <small>الثانوية للبنات</small>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عن المدرسة</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#news">الأخبار</a></li>
+                <li><a href="#quiz">بنك الأسئلة</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="welcome">مرحباً بكن في موقعنا الرسمي</span>
+                    <h1>مستقبلك يبدأ من <span>هنا</span></h1>
+                    <p>
+                        مدرسة السلام الثانوية للبنات.
+                        معاً نحو تعليم أفضل، وطموح أكبر،
+                        ومستقبل مليء بالنجاح والتميز.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">اكتشفي خدماتنا</a>
+                        <a href="#about" class="btn btn-outline">عن المدرسة</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-placeholder">🏫</div>
+                    <div class="floating-card">
+                        <span>🌟</span>
+                        <div>
+                            <strong>تعليم يصنع المستقبل</strong>
+                            <small>العلم طريق النجاح</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics -->
+        <section class="stats container">
+            <div class="stat-card">
+                <span>👩🏻‍🎓</span>
+                <h3>طالباتنا</h3>
+                <p>جيل المستقبل</p>
+            </div>
+            <div class="stat-card">
+                <span>👩🏻‍🏫</span>
+                <h3>معلماتنا</h3>
+                <p>رسالة وعطاء</p>
+            </div>
+            <div class="stat-card">
+                <span>📚</span>
+                <h3>التعلم</h3>
+                <p>طريق التميز</p>
+            </div>
+            <div class="stat-card">
+                <span>🏆</span>
+                <h3>الإنجاز</h3>
+                <p>طموح بلا حدود</p>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <span>تعرفي علينا</span>
+                <h2>عن مدرسة السلام</h2>
+                <p>بيئة تعليمية تهدف إلى بناء جيل واعٍ ومتميز.</p>
+            </div>
+
+            <div class="about-box">
+                <div class="about-icon">🏫</div>
+                <div>
+                    <h3>رسالتنا</h3>
+                    <p>
+                        نسعى إلى توفير بيئة تعليمية آمنة ومحفزة،
+                        تساعد الطالبات على اكتساب المعرفة والمهارات،
+                        وتنمية المواهب والإبداع، وإعدادهن لمستقبل أفضل.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <span>كل ما تحتاجينه</span>
+                    <h2>خدماتنا الإلكترونية</h2>
+                    <p>خدمات تعليمية تساعدك في رحلتك الدراسية.</p>
+                </div>
+
+                <div class="services-grid">
+                    <a href="#schedules" class="service-card">
+                        <span>📅</span>
+                        <h3>الجداول الدراسية</h3>
+                        <p>تعرفي على جدول الحصص الأسبوعي.</p>
+                    </a>
+
+                    <a href="#exams" class="service-card">
+                        <span>📝</span>
+                        <h3>الامتحانات</h3>
+                        <p>مواعيد الامتحانات والتعليمات.</p>
+                    </a>
+
+                    <a href="#library" class="service-card">
+                        <span>📚</span>
+                        <h3>المكتبة الإلكترونية</h3>
+                        <p>مذكرات ومراجعات وملفات تعليمية.</p>
+                    </a>
+
+                    <a href="#quiz" class="service-card">
+                        <span>💡</span>
+                        <h3>بنك الأسئلة</h3>
+                        <p>اختبري معلوماتك وتابعي نتيجتك.</p>
+                    </a>
+
+                    <a href="#calculator" class="service-card">
+                        <span>🧮</span>
+                        <h3>حاسبة المجموع</h3>
+                        <p>احسبي مجموعك ونسبتك المئوية.</p>
+                    </a>
+
+                    <a href="#activities" class="service-card">
+                        <span>🎨</span>
+                        <h3>الأنشطة المدرسية</h3>
+                        <p>اكتشفي الفعاليات والمواهب.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedules -->
+        <section class="section container" id="schedules">
+            <div class="section-heading">
+                <span>نظمي وقتك</span>
+                <h2>الجداول الدراسية</h2>
+            </div>
+            <div class="simple-box">
+                <p>يمكنك الاطلاع على الجداول الدراسية من هنا.</p>
+                <p class="notice">سيتم إضافة الجداول الرسمية بعد اعتمادها من إدارة المدرسة.</p>
+            </div>
+        </section>
+
+        <!-- Exams -->
+        <section class="section container" id="exams">
+            <div class="section-heading">
+                <span>استعدي جيداً</span>
+                <h2>الامتحانات</h2>
+            </div>
+            <div class="simple-box">
+                <p>تابعي مواعيد الامتحانات والتعليمات الخاصة بها.</p>
+                <p class="notice">سيتم نشر المواعيد الرسمية فور اعتمادها.</p>
+            </div>
+        </section>
+
+        <!-- Library -->
+        <section class="section container" id="library">
+            <div class="section-heading">
+                <span>المعرفة بين يديك</span>
+                <h2>المكتبة الإلكترونية</h2>
+            </div>
+            <div class="library-grid">
+                <div class="library-card">
+                    <span>📕</span>
+                    <h3>اللغة العربية</h3>
+                    <p>مذكرات ومراجعات اللغة العربية.</p>
+                </div>
+                <div class="library-card">
+                    <span>🔬</span>
+                    <h3>العلوم</h3>
+                    <p>مواد ومراجعات علمية.</p>
+                </div>
+                <div class="library-card">
+                    <span>🌍</span>
+                    <h3>اللغة الإنجليزية</h3>
+                    <p>ملفات وتدريبات اللغة الإنجليزية.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz -->
+        <section class="section quiz-section" id="quiz">
+            <div class="container">
+                <div class="section-heading">
+                    <span>تحدي المعرفة</span>
+                    <h2>بنك الأسئلة</h2>
+                    <p>اختبري معلوماتك في اختبار قصير.</p>
+                </div>
+
+                <div class="quiz-box" id="quizBox">
+                    <div id="quizContent">
+                        <h3 id="question">ما عاصمة جمهورية مصر العربية؟</h3>
+                        <div class="answers" id="answers">
+                            <button class="answer" data-correct="false">الإسكندرية</button>
+                            <button class="answer" data-correct="true">القاهرة</button>
+                            <button class="answer" data-correct="false">الأقصر</button>
+                        </div>
+                        <p id="feedback"></p>
+                        <button class="btn btn-primary" id="nextQuestion">السؤال التالي</button>
+                    </div>
+                    <div id="quizResult" hidden></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator -->
+        <section class="section container" id="calculator">
+            <div class="section-heading">
+                <span>خطوة نحو التفوق</span>
+                <h2>حاسبة المجموع</h2>
+                <p>احسبي مجموع درجاتك ونسبتك المئوية.</p>
+            </div>
+
+            <div class="calculator-box">
+                <label for="studentScore">مجموع درجاتك</label>
+                <input type="number" id="studentScore" placeholder="مثلاً 250" min="0">
+
+                <label for="totalScore">النهاية العظمى</label>
+                <input type="number" id="totalScore" placeholder="مثلاً 300" min="1">
+
+                <button class="btn btn-primary" id="calculateBtn">احسبي النسبة</button>
+                <h3 id="calculatorResult"></h3>
+            </div>
+        </section>
+
+        <!-- Activities -->
+        <section class="section container" id="activities">
+            <div class="section-heading">
+                <span>أبدعي وتأَلقي</span>
+                <h2>الأنشطة المدرسية</h2>
+                <p>مساحة لاكتشاف المواهب وتنمية القدرات.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span>🎨</span>
+                    <h3>الفنون والإبداع</h3>
+                    <p>الرسم والأعمال الفنية.</p>
+                </div>
+                <div class="service-card">
+                    <span>🔬</span>
+                    <h3>الأنشطة العلمية</h3>
+                    <p>المشروعات والتجارب العلمية.</p>
+                </div>
+                <div class="service-card">
+                    <span>🏃🏻‍♀️</span>
+                    <h3>الأنشطة الرياضية</h3>
+                    <p>الرياضة والمسابقات.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- News -->
+        <section class="section news-section" id="news">
+            <div class="container">
+                <div class="section-heading">
+                    <span>كوني على اطلاع</span>
+                    <h2>أخبار المدرسة</h2>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-icon">📢</div>
+                        <div class="news-body">
+                            <small>إعلانات المدرسة</small>
+                            <h3>الإعلانات الرسمية</h3>
+                            <p>تابعي الإعلانات والتعليمات الجديدة من إدارة المدرسة.</p>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-icon">🏆</div>
+                        <div class="news-body">
+                            <small>إنجازات الطالبات</small>
+                            <h3>طالبات متميزات</h3>
+                            <p>نحتفي بالمواهب والإنجازات والنجاحات.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section container" id="contact">
+            <div class="section-heading">
+                <span>نحن هنا لمساعدتك</span>
+                <h2>تواصلي معنا</h2>
+                <p>يسعدنا استقبال استفساراتك ومقترحاتك.</p>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <label for="studentName">الاسم</label>
+                <input type="text" id="studentName" placeholder="اكتبي اسمك" required>
+
+                <label for="studentEmail">البريد الإلكتروني</label>
+                <input type="email" id="studentEmail" placeholder="example@email.com" required>
+
+                <label for="message">رسالتك</label>
+                <textarea id="message" rows="5" placeholder="اكتبي رسالتك هنا..." required></textarea>
+
+                <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                <p id="formMessage"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <h2>مدرسة السلام الثانوية للبنات</h2>
+            <p>العلم نور، والتعليم أساس بناء المستقبل.</p>
+            <p class="copyright">جميع الحقوق محفوظة © 2026</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" aria-label="العودة للأعلى">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
